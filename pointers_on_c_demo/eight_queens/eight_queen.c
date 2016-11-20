@@ -1,4 +1,3 @@
-/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -131,4 +130,3 @@ void print_pattern(int queen_row_arr[COL]) {
     }
     printf("\r\n");
 }
-*/
