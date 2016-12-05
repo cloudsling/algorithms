@@ -20,7 +20,7 @@ int rand_num();
 
 int main(char *argc, char *argv[]) {
     srand(time(NULL));
-    if (*argv++ == NULL)
+    if (*argv == NULL)
         exit(EXIT_FAILURE);
 
     generate_output(argv);
